@@ -157,10 +157,6 @@ local function set_get_data()
 	end
 end
 
-local function getinfo()
-	ngx.say("I am redis")
-	return "I am redis"
-end
 
 local _M = {
 	setdata = set_data,
@@ -168,7 +164,6 @@ local _M = {
 	getdata_bykey = get_data_bykey,
 	setdata_bykeyval = set_data_bykeyval,
 	setgetdata = set_get_data,
-	getinfo = getinfo,
 }
 
 return _M
