@@ -3,6 +3,6 @@
 int main() {
 
 
-	printf("Helalo");
+	printf("He:%d\n", 10);
 
 }
