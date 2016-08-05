@@ -3,6 +3,6 @@
 int main() {
 
 
-	printf("He:%d\n", 10);
+	printf("He:%d\n", 100);
 
 }
